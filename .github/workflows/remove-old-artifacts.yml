@@ -1,6 +1,7 @@
 name: Remove old artifacts
 
 on:
+  push:
   schedule:
     - cron: "0 1 */10 * *"
 
